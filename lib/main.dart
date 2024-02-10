@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            const Text("This my first app for test"),
+            const Text("This my first apps."),
             ElevatedButton(
               onPressed: () {},
               child: const Text('Click button'),
@@ -24,4 +24,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
