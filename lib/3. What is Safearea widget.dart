@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
           body: Text(
-            "I love BD", 
+            "Safearea widget", 
           style: TextStyle(fontSize: 25,)),
           backgroundColor: Color.fromARGB(255, 255, 211, 182)
         )
