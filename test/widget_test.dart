@@ -6,8 +6,10 @@
 // tree, read text, and verify that the values of widget properties are correct.
 
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/2.%20Appbar%20and%20Text%20widget%20in%20flutter.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+// ignore: unused_import
 import 'package:flutter_application_1/main.dart';
 
 void main() {
