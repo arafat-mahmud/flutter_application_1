@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
       home: SafeArea(
         child: Scaffold(
           appBar: AppBar(
-            title: const Text("Row"),
+            title: const Text("Column"),
             elevation: 5,
             backgroundColor: const Color.fromARGB(255, 65, 166, 233),
           ),
