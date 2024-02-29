@@ -27,7 +27,7 @@ class _HomepageState extends State<Homepage> {
             tag: "add",
             child: Icon(
               Icons.add_a_photo,
-              size: 50,
+              size: 150,
               color: Colors.blue,
             ),
           ),
