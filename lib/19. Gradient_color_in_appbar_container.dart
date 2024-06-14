@@ -15,7 +15,6 @@ class MyApp extends StatelessWidget {
   }
 }
 
-
 class HomePage extends StatefulWidget {
   @override
   // ignore: library_private_types_in_public_api
