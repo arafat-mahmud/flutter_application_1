@@ -7,8 +7,8 @@ import 'package:flutter_application_1/All_adding_page/receive.dart';
 import 'package:provider/provider.dart';
 
 void main() =>
-    runApp(ChangeNotifierProvider(create: (context) => Data(), child: MyApp())); 
-    // `ChangeNotifierProvider` for single page. you can use `mutiprovider` for Multiple pages.
+    runApp(ChangeNotifierProvider(create: (context) => Data(), child: MyApp()));
+// `ChangeNotifierProvider` for single page. you can use `mutiprovider` for Multiple pages.
 
 class MyApp extends StatelessWidget {
   @override
@@ -57,10 +57,6 @@ class _HomePageState extends State<HomePage> {
     ));
   }
 }
-
-
-
-
 
 
 // // Set State 
