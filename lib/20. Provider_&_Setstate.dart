@@ -2,7 +2,6 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/All_adding_page/data.dart';
-import 'package:flutter_application_1/17.%20Tab_Bar.dart';
 import 'package:flutter_application_1/All_adding_page/receive.dart';
 
 import 'package:provider/provider.dart';
