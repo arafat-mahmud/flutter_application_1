@@ -3,13 +3,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/All_adding_page/data.dart';
 import 'package:flutter_application_1/17.%20Tab_Bar.dart';
+import 'package:flutter_application_1/All_adding_page/receive.dart';
 
 import 'package:provider/provider.dart';
 
-void main() => runApp(ChangeNotifierProvider(
-    create: (context) => Data(),
-    
-    child: MyApp()));
+void main() =>
+    runApp(ChangeNotifierProvider(create: (context) => Data(), child: MyApp())); 
+    // `ChangeNotifierProvider` for single page. you can use `mutiprovider` for Multiple pages.
 
 class MyApp extends StatelessWidget {
   @override
@@ -43,8 +43,15 @@ class _HomePageState extends State<HomePage> {
               onPressed: () {
                 Providerdata.Increment();
               },
-              child: Text('Tap'),
-            )
+              child: Text('Tap to increment'),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => ReceiveState()));
+              },
+              child: Text('Check to Receive'),
+            ),
           ],
         ),
       ),
