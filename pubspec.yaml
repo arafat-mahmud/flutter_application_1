@@ -30,11 +30,13 @@ environment:
 dependencies:
 # `flutter pub add provider`
   provider: ^6.1.2
+  
   flutter:
     sdk: flutter
   liquid_swipe: ^3.1.0
 
   image_picker: ^1.1.2
+  curved_navigation_bar: ^1.0.6
 
 
   # The following adds the Cupertino Icons font to your application.
