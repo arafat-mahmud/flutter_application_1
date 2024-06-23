@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   @override
+  // ignore: library_private_types_in_public_api
   _MyHomePageState createState() => _MyHomePageState();
 }
 
@@ -39,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     alignment: Alignment.topCenter,
                     clipBehavior: Clip.none,
                     children: <Widget>[
-                      Container(
+                      SizedBox(
                         height: 250,
                         child: Padding(
                           padding: const EdgeInsets.all(20.0),
