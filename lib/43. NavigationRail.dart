@@ -29,11 +29,13 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Scaffold(
       body: Row(
         children: <Widget>[
-          NavigationRail(destinations: [
-            NavigationRailDestination(
-                icon: Icon(
-                  Icons.wifi
-                  ), 
+          NavigationRail(
+            backgroundColor: Colors.black87,
+            labelType: NavigationRailLabelType.selected,
+            
+            destinations: [
+              NavigationRailDestination(
+                icon: Icon(Icons.wifi),
                 indicatorColor: Colors.white,
                 label: Text(
                   'WiFi',
@@ -42,9 +44,29 @@ class _MyHomePageState extends State<MyHomePage> {
                 selectedIcon: Icon(
                   Icons.wifi,
                   color: Colors.blue,
-    
-            ),
-          )], selectedIndex: _selectedIndex)
+                ),
+              ),
+              NavigationRailDestination(
+                icon: Icon(Icons.bluetooth),
+                indicatorColor: Colors.white,
+                label: Text(
+                  'Bluetooth',
+                  style: TextStyle(color: Colors.white),
+                ),
+                selectedIcon: Icon(
+                  Icons.bluetooth,
+                  color: Colors.blue,
+                ),
+              )
+            ],
+            selectedIndex: _selectedIndex,
+            onDestinationSelected: (val) {
+              setState(() {
+                _selectedIndex = val;
+              });
+            },
+            unselectedIconTheme: IconThemeData(color: Colors.white),
+          )
         ],
       ),
     ));
