@@ -32,7 +32,6 @@ class _MyHomePageState extends State<MyHomePage> {
           NavigationRail(
             backgroundColor: Colors.black87,
             labelType: NavigationRailLabelType.selected,
-            
             destinations: [
               NavigationRailDestination(
                 icon: Icon(Icons.wifi),
