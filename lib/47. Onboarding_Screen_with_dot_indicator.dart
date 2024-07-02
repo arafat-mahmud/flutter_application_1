@@ -41,7 +41,7 @@ class _SplashState extends State<Splash> {
         PageViewModel(
           title: 'First',
           body: 'This is the first page',
-          image: Image.asset('images/ss1.png', width: 350,),
+          image: Image.asset('images/ss3.png', width: 350,),
         ),
         PageViewModel(
           title: 'Two',
@@ -51,7 +51,7 @@ class _SplashState extends State<Splash> {
         PageViewModel(
           title: 'Three',
           body: 'This is the Three page',
-          image: Image.asset('images/ss3.png', width: 350,),
+          image: Image.asset('images/ss1.png', width: 350,),
         ),
       ],
       onDone: (){
