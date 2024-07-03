@@ -62,7 +62,6 @@ class _SplashState extends State<Splash> {
       skip: Text('Skip'),
       next: Icon(Icons.arrow_forward),  // Added next button
       showNextButton: true,
-
     );
   }
 }
