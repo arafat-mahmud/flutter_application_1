@@ -48,6 +48,9 @@ dependencies:
 
   # 47. Onboarding_Screen_with_dot_indicator.dart
   introduction_screen: ^3.1.14
+
+  # 48. Shared_Preferences
+  shared_preferences: ^2.2.3
   
 
   
