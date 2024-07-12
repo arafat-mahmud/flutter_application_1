@@ -51,7 +51,6 @@ dependencies:
 
   # 48. Shared_Preferences
   shared_preferences: ^2.2.3
-
   # flutter_launcher_icons: ^0.13.1
 
   # android: "launcher_icon"
