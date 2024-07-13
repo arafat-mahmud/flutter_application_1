@@ -51,6 +51,18 @@ dependencies:
 
   # 48. Shared_Preferences
   shared_preferences: ^2.2.3
+
+  # 52
+  google_mobile_ads: ^5.1.0
+
+
+
+
+
+
+
+
+
   # flutter_launcher_icons: ^0.13.1
 
   # android: "launcher_icon"
