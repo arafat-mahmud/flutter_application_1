@@ -55,6 +55,9 @@ dependencies:
   # 52
   google_mobile_ads: ^5.1.0
 
+  # 53
+  url_launcher: ^6.3.0
+
 
 
 
