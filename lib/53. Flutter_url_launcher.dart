@@ -24,20 +24,37 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   static const url = "https://www.google.com";
+  static const phnNum = "tel:+1234567890";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        body: Center(
-      child: ElevatedButton(
-        onPressed: () async {
-          if (await canLaunch(url)) {
-            await launch(url);
-          } else {
-            throw 'Could not launch $url';
-          }
-        },
-        child: Text('URL'),
-      ),
-    ));
+      body: Center(
+          child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          ElevatedButton(
+            onPressed: () async {
+              if (await canLaunch(url)) {
+                await launch(url);
+              } else {
+                throw 'Could not launch $url';
+              }
+            },
+            child: Text('URL'),
+          ),
+          SizedBox(height: 1),
+          ElevatedButton(
+            onPressed: () async {
+              if (await canLaunch(phnNum)) {
+                await launch(phnNum);
+              } else {
+                throw 'Could not launch $phnNum';
+              }
+            },
+            child: Text('Dial'),
+          ),
+        ],
+      )),
+    );
   }
 }
