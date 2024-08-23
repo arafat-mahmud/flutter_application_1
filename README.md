@@ -1,6 +1,6 @@
 # flutter_application_1
 
-It is for beginners
+A new Flutter project.
 
 ## Getting Started
 
