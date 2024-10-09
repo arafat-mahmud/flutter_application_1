@@ -1,20 +1,14 @@
 name: flutter_application_1
 description: "A new Flutter project."
-# The following line prevents the package from being accidentally published to
+
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
-# of the product and file versions while build-number is used as the build suffix.
 version: 1.0.0+1
 
 environment:
   sdk: ">=3.2.6 <4.0.0"
-
-# Dependencies specify other packages that your package needs in order to work.
-# To automatically upgrade your package dependencies to the latest versions
-# consider running `flutter pub upgrade --major-versions`. Alternatively,
-# dependencies can be manually updated by changing the version numbers below to
-# the latest version available on pub.dev. To see which dependencies have newer
+# consider running `flutter pub upgrade --major-versions`. 
 # versions available, run `flutter pub outdated`.
 dependencies:
   # `flutter pub add provider`
@@ -61,12 +55,15 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+  #58
+  connectivity_plus: ^6.0.5
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   # 49. Change_Flutter_App_Icon_And_App_Name.dart
-  flutter_launcher_icons: ^0.13.1
+  flutter_launcher_icons: ^0.14.1
 flutter_icons:
   android: true
   ios: true
@@ -74,14 +71,7 @@ flutter_icons:
 
   flutter_lints: ^4.0.0
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
-
-# The following section is specific to Flutter packages.
 flutter:
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
   assets:
